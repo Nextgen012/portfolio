@@ -1,0 +1,120 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER STYLES */
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #0a0a0a;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.navbar a.active {
+    color: cyan;
+}
+
+/* ABOUT SECTION */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px 10%;
+    background: #0d1b2a;
+    color: white;
+}
+
+.about-content {
+    width: 50%;
+}
+
+.about-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* CONTACT FORM */
+.contact-form {
+    margin-bottom: 20px;
+    background: transparent;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background: transparent;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid yellow;
+    color: azure;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 80px;
+    color: white;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: cyan;
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #00bcd4;
+}
+
+/* SOCIAL ICONS */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: cyan;
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+/* IMAGE STYLING */
+.about-img {
+    width: 40%;
+}
+
+.about-img img {
+    width: 100%;
+    border-radius: 20px;
+}
